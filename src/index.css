@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: greenyellow;
   background-color: #242424;
 
   font-synthesis: none;
@@ -48,9 +48,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top: 0.8em;
 }
 button:hover {
   border-color: #646cff;
+  background-color: #646cff6f;
 }
 button:focus,
 button:focus-visible {
@@ -65,6 +67,14 @@ form {
 
 input {
   padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+input:hover {
+  border-color: #646cffb8;
+  background-color: #646cff54;
+
 }
 
 .bookshelfDiv {
@@ -84,6 +94,7 @@ input {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .bookCardsDiv {
@@ -100,11 +111,12 @@ input {
   justify-content: center;
   flex-direction: column;
   border: 1px solid white;
+  border-radius: 5px;
   padding: 5px;
   width: 40%;
   margin: 15px 10px;
-  background-color: rgb(155, 155, 155);
-  color: black;
+  background-color: rgb(59, 14, 87);
+  color: rgb(202, 202, 202);
 }
 
 @media (prefers-color-scheme: light) {
